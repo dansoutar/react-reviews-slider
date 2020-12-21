@@ -21,7 +21,7 @@ function App() {
             
             return (
               <article key={id}>
-                <img src={image} alt={name} className="person-img" />
+                <img src={image} alt={name} className="person-img anotherClass" />
                 <h4>{name}</h4>
                 <p className="title">{title}</p>
                 <p className="text">{quote}</p>
